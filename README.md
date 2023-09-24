@@ -19,11 +19,11 @@ Essa é uma aplicação frontend que diz respeito a uma lista de tarefa ineterat
 - Fazer login e Cadastro (persistência de dados)
 
 ## Rotas
-Pegar todas tarefas(Get) -  /task
-Pegar todas as tarefas do usúario(Get) - /task/userid
-Criar uma tarefa(Post) - /task
-Atualizar ua tarefa(Pach) - /task/taskid
-Excluir uma tarefa (Delete) -  /task/taskid
+-Pegar todas tarefas(Get) -  /task
+ -Pegar todas as tarefas do usúario(Get) - /task/userid
+ -Criar uma tarefa(Post) - /task
+ -Atualizar ua tarefa(Pach) - /task/taskid
+ -Excluir uma tarefa (Delete) -  /task/taskid
 
 ## 🔎 Status do Projeto
 ![Badge em Desenvolvimento](https://img.shields.io/badge/Status-Em%20Desenvolvimento-green)
