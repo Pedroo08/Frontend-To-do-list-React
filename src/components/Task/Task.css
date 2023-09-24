@@ -1,0 +1,41 @@
+li{
+    display: flex;
+    padding: .5rem;
+    margin: .3rem;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    background-color:white;
+    border: 1px solid #ccc;
+    min-height: 2rem;
+
+    
+}
+
+.interactions-task{
+    display: flex;
+    justify-content:space-between;
+}
+
+.btn-b{
+    margin: .2rem;
+    padding: .5rem;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    font-weight: 600;
+    color: #2b134b;
+    cursor: pointer; /*cursor de ação */
+
+}
+.btn-apagar{
+    
+    background-color: #ff677c;
+}
+
+.btn-concluir{
+    
+    background-color: #00ff88;
+    
+}
+

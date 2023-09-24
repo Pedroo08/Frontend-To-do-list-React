@@ -1,0 +1,31 @@
+.main-Login{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #201b2c;
+  width: 100%;
+
+}
+
+
+  .login-img{
+    width: 70%;
+    margin: 1rem;
+  }
+
+  @media screen and (min-width: 1024px) {
+    
+    .main-Login{
+      display: flex;
+      flex-direction:row;
+      justify-content:space-around;
+      
+    }
+
+    .login-img{
+      width: 40%;
+      margin: 1rem;
+    }
+  }
+  

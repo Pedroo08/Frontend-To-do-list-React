@@ -1,0 +1,140 @@
+
+.box-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    
+   
+
+}
+.AuthForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    background: #2f2841;
+    width: 100%;
+    box-shadow: 0px 10px 40px #00000056;
+
+  }
+
+  .titulo-form{
+    color: #00ff88;
+    margin: 1rem;
+  }
+
+  .input-box{
+    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: end;
+    margin:10px 0px;
+
+  }
+
+  .input-form{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #514869;
+    color: #f0ffffde;
+    font-size: 12pt;
+    border:0px 10px 40px #00000056 ;
+    outline: none;
+    box-sizing: border-box;
+    margin: .5rem;
+  }
+
+  .button-box{
+    margin: 1rem;
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    
+  }
+
+  .button-box button{
+    width: 8rem;
+    text-decoration: none;
+    cursor: pointer;
+    
+  }
+  
+
+
+  .btn-auth{
+    width: 100%;
+    padding: 1rem;
+    margin: 1rem;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    text-align: center;
+    color: #2b134b;
+    background-color: #00ff88;
+    cursor: pointer; /*cursor de ação */
+    box-shadow: 0px 10px 40px -12px #00ff8052;
+  }
+
+  .btn-navegate{
+    
+    padding: 1rem;
+    margin: 1rem;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    text-align: center;
+    color: #2b134b;
+    background-color: #b8f5d9;
+    cursor: pointer; /*cursor de ação */
+    box-shadow: 0px 10px 40px -12px #00ff8052;
+
+  }
+
+  :link{
+
+    text-decoration: none;
+    
+    
+}
+
+.alternatives-auth{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.icon-label{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #00ff88;
+  margin-right: 1rem;
+}
+
+.icon-label > img{
+  width: 3.5rem;
+  cursor: pointer;
+}
+
+  
+
+  @media screen and (min-width: 1024px) {
+    .box-form{
+
+        width: 40%;
+
+    }
+
+  }
